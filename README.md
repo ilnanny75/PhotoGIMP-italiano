@@ -1,16 +1,20 @@
-     1	# PhotoGIMP (Versione Italiana)
-     2	
-     3	Questa è una patch per GIMP 2.10+ che imita l'interfaccia, i tasti rapidi e le funzionalità di Adobe Photoshop.
-     4	
-     5	## Cosa include:
-     6	* **Icone:** Set di icone ispirate a Photoshop.
-     7	* **Scorciatoie:** Oltre cento scorciatoie da tastiera (es. Ctrl+J per duplicare il livello).
-     8	* **Layout:** Organizzazione dei pannelli simile a Photoshop.
-     9	* **Plugin:** Include strumenti utili come "Heal Selection".
-    10	
-    11	## Installazione:
-    12	1. Copia il contenuto delle cartelle nella tua cartella di configurazione di GIMP (solitamente in `~/.var/app/org.gimp.GIMP/config/GIMP/2.10/` per Flatpak).
-    13	2. Riavvia GIMP.
-    14	
-    15	---
-    16	*Tradotto e adattato da ilnanny75*
+# PhotoGIMP (Versione Italiana) 🇮🇹
+
+Questa è una patch personalizzata per GIMP (2.10 o 3.0+) che trasforma l'interfaccia, le scorciatoie e i plugin per renderli simili ad Adobe Photoshop.
+
+## 📸 Anteprima
+Ecco come apparirà il tuo GIMP dopo l'installazione:
+
+![Anteprima PhotoGIMP](screenshots/PhotoGIMP_Linux.png)
+
+## ✨ Novità di questa versione
+* **Traduzione Completa:** Documentazione e istruzioni in italiano.
+* **Script Intelligente:** Il file `installa_italiano.sh` rileva automaticamente la tua versione di GIMP (Flatpak o Standard) e applica la patch nel posto giusto.
+* **Integrazione Geany:** Imposta automaticamente Geany come editor di testo predefinito durante la sincronizzazione.
+
+## 🚀 Installazione Rapida
+Apri il terminale nella cartella del progetto e lancia:
+
+```bash
+chmod +x installa_italiano.sh
+./installa_italiano.sh
